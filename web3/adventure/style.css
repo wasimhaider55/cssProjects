@@ -1,0 +1,40 @@
+/* googel fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/bg2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content{
+    padding-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.header-content .line{
+    width: 150px;
+    height: 5px;
+    background: #fc036b;
+    margin: 10px auto;
+}
