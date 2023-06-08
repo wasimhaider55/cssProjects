@@ -10,26 +10,26 @@
 <body>
     <div class="main">
         <!-- *------------------navbar--------------------* -->
-        <div class="navBar">
-            <div class="icons">
-                <h2 class="logo"> WMH</h2>
-            </div>
-            <div class="manu">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">DESIGN</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
+        <nav class="navBar">
+            <h2 class="logo"> WMH</h2>
+            <ul class="navLinks">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">DESIGN</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
             <div class="search">
                 <input class="srch" type="search" name="name" placeholder="type to text">
-                 <button class="btn"> <a href="#"> Search </a></button>
+                <button class="btn"> <a href="#"> Search </a></button>
             </div>
-        </div>
+            <img src="./assets/manuBtn1.png" alt="" class="manuBtn">
+        </nav>
+        
         <!-- *------------------------------content-------------------------*-->
-        <div class="content">
+        <header>
+            <div class="header-content">
             <h1>Web Design &  <br><span>Development</span> <br> Course</h1>
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Option
                 <br> similique nostrum dicta, dolore accusantium quos praesentium atque aut deserunt
@@ -37,10 +37,11 @@
             </p>
             <button class="contact"><a href="#"> JOIN US </a></button>
         </div>
+        </header>
 
         <!-- *----------------------login from ------------------------* -->
 
-        <div class="form">
+        <!-- <div class="form">
             <h1>Login Here!!!</h1>
             <input  type="email" name="name" placeholder="Enter your email">
            
@@ -60,7 +61,15 @@
                 <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
 
-        </div>
+        </div> -->
+        <script>
+            const manuButton = document.querySelector(".manuBtn")
+            const navBarLinks = document.querySelector(".navLinks")
+            manuButton.addEventListener("click", () => {
+                navBarLinks.classList.toggle("mobile-manu")
+    
+            })
+        </script>
     </div>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

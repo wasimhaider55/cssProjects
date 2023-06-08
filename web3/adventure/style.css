@@ -17,7 +17,7 @@
     justify-content: space-between;
     padding: 20px;
     color: whitesmoke;
-    background-color: black
+    background-color: rgb(35, 31, 31);
 }
 
 ul {
@@ -67,7 +67,6 @@ ul {
     .navBar {
         padding: 0;
     }
-
     .logo {
         position: absolute;
         top: 30px;
