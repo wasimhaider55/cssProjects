@@ -16,12 +16,13 @@
     <nav class="navBar">
         <h1 class="logo">ADVENTURE</h1>
         <ul class="navLinks">
-            <li><a href="">Home</a></li>
-            <li><a href="">Tours</a></li>
-            <li><a href="">Explors</a></li>
-            <li><a href="">About</a></li>
-            <li class="ctn"><a href="">Contact</a></li>
+            <li class="active"><a href=""></a>Home</li>
+            <li><a href=""></a>Tours</li>
+            <li><a href=""></a>Explors</li>
+            <li><a href=""></a>About</li>
+            <li class="ctn"><a href=""></a>Contact</li>
         </ul>
+        <img src="./assets/manuBtn1.png" alt="" class="manuBtn">
     </nav>
 
     <!-- ------------------- background image -------------- -->
@@ -34,6 +35,15 @@
 
         </div>
     </header>
+
+    <script>
+        const manuButton = document.querySelector(".manuBtn")
+        const navBarLinks = document.querySelector(".navLinks")
+        manuButton.addEventListener("click", () => {
+            navBarLinks.classList.toggle("mobile-manu")
+
+        })
+    </script>
 
 </body>
 
