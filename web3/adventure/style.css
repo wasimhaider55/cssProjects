@@ -144,8 +144,10 @@ ul {
 
     /* footer */
     .footer {
-        padding-right: 10px;
-    }
+        padding: 20px;
+        text-align: center;
+        }
+
 
 }
 
@@ -348,7 +350,7 @@ p {
     width: 100%;
     min-height: 80px;
     background-color: #484872;
-    padding: 20px 40px;
+    padding: 20px 10px;
     margin: 0px;
     text-align: center;
     font-size: 3vmin;
