@@ -143,8 +143,8 @@ ul {
     }
 
     /* footer */
-    .footer{
-    padding: 20px;
+    .footer {
+        padding-right: 10px;
     }
 
 }
@@ -346,17 +346,17 @@ p {
 
 .footer {
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     background-color: #484872;
-    padding: 40px 80px;
+    padding: 20px 40px;
     margin: 0px;
     text-align: center;
+    font-size: 3vmin;
 }
 
 .footer p {
     color: whitesmoke;
     margin: 20px auto;
-    padding: 20px auto;
 }
 
 
